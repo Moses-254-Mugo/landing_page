@@ -46,3 +46,8 @@ body{
     background-color: #fff;
     padding: 20px;
 }
+.fakeimg{
+    padding: 20px ;
+    background-color: #ccc;
+    width: 100%;
+}

@@ -23,5 +23,8 @@ body{
 }
 /*Style banner*/
 .banner{
-    
+    text-align: center;
+    background-color: greenyellow;
+    color: black;
+    padding: 60px;
 }

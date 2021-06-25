@@ -4,3 +4,21 @@
 body{
     font-family: 'Times New Roman', Times, serif;
 }
+/*Style navigation bar*/
+.nav{
+    background-color: black;
+    display: flex;
+}
+.nav a{
+    color: #fff;
+    text-decoration: none;
+    padding: 16px 18px;
+    display: block;
+}
+/*Change on hover*/
+.nav a:hover{
+    background-color: #fff;
+    color: black;
+    font-size: 19px;
+}
+/*Style banner*/

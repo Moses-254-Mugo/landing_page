@@ -3,6 +3,7 @@
 }
 body{
     font-family: 'Times New Roman', Times, serif;
+    background-color: lavender;
 }
 /*Style navigation bar*/
 .nav{
@@ -27,4 +28,17 @@ body{
     background-color: greenyellow;
     color: black;
     padding: 60px;
+}
+/*Style the grid container*/
+.row{
+    display: flex;
+}
+.side{
+    flex: 30%;
+    padding: 20px;
+}
+.main{
+    flex: 70%;
+    padding: 20px;
+
 }

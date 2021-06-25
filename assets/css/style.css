@@ -60,3 +60,12 @@ body{
 .footer p{
     opacity: 0.4;
 }
+/*Make responsive page
+this is to make columns lie on top of each other,
+ but not next to each other*/
+
+ @media screen and (max-width: 600px){
+    .row, .nav{
+        flex-direction: column;
+    }
+ }
